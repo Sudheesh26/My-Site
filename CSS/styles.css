@@ -67,19 +67,20 @@ h3,a
     margin: 100px auto;
     line-height: 2;
     text-align: left;
-    width: 50%;
+    width: 60%;
 }
 
 .dev-image
 {
-    width: 25%;
+    width: 112px;
+    /* width: 7rem; */
     float: right;
     margin-left: 30px;
 }
 
 .web-image
 {
-    width: 25%;
+    width: 112px;
     float: left;
     margin-right: 30px;
 }
@@ -87,26 +88,19 @@ h3,a
 .bits-img
 {
     width: 15rem;
+    /* width: 35%; */
     float: right;
     margin-right: 30px;
 }
 
 .hcltech-img
 {
+    /* width: 20%; */
     width: 8rem;
     float: left;
-    margin-right: 30px;
     margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-@media(max-width:900px)
-{
-    .hcltech-img
-    {
-        margin-bottom: 10px;
-        margin-top: 0;
-    }
+    /* margin-right: 30px;
+    margin-bottom: 100px; */
 }
 
 
@@ -141,7 +135,7 @@ h3,a
     text-decoration: none;
     color: black;
     font-weight: 600;
-    font-size: larger;
+    /* font-size: 25px; */
 }
 
 ul
@@ -149,6 +143,10 @@ ul
     list-style-type: none;
 }
 
+/* .no-float
+{
+    clear: right; For not applying float
+} */
 
 .profile-pic
 {
@@ -169,10 +167,15 @@ hr
 p
 {
     font-family: 'Signika Negative', sans-serif;
-    font-size: larger;
+    font-size: 1.5rem;;
 }
 
-.btn {
+.contact-me
+{
+    margin-bottom: 1.875rem;
+}
+
+.contact-btn {
     position: relative;
     -webkit-border-radius: 39;
     -moz-border-radius: 39;
@@ -182,12 +185,12 @@ p
     color: #ffe3ff;
     font-size: 22px;
     background: #d93434;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 20px 20px;
     text-decoration: none;
-    top: 40px;
+    /* top: 40px; */
   }
   
-  .btn:hover {
+  .contact-btn:hover {
     background: #8f3cfc;
     text-decoration: none;
   }
@@ -204,111 +207,9 @@ p
 .mail-img
 {
     height: 50px;
+    /* margin-bottom: -15px; */
     margin-bottom: -5px;
 }
-
-.footer-link
-{
-    
-    color: purple;
-    font-family: 'Kanit', sans-serif;
-    line-height: 2;
-    padding-left: 10px;
-    padding-right:10px;
-    font-size: larger;
-    text-decoration: none;
-    height: 75px;
-}
-
-.linkedin
-{
-    height: 50px;
-    margin-right: 0.625rem;
-    position: relative;
-    padding-bottom: 20px;
-    top: 10px;
-}
-
-.twitter
-{
-    border-radius: 100%;
-    height: 50px;
-    margin-right: 0.625rem;
-    position: relative;
-    padding-bottom: 20px;
-    top: 10px;
-}
-
-.instagram
-{
-    height: 50px;
-    margin-right: 0.625rem;
-    position: relative;
-    padding-bottom: 20px;
-    display: inline-block;
-    top: 10px;
-}
-
-.footer-link {
-    -webkit-border-radius: 39;
-    -moz-border-radius: 39;
-    border-radius: 39px;
-    font-family: Arial;
-    color: #132a44;
-    font-size: 20px;
-    background: #a1e1e4;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    margin-left: 15%;
-    /* margin-right:100px; */
-    width: 180px;
-    /* width: 159px; */
-  }
-
-
-  @media (max-width:975px)
-  {
-    .footer-link
-    {
-        margin-right: 2rem;
-       margin-left: 2rem;
-    }
-  }
-
-
-
-  @media (max-width:725px)
-  {
-    #instagram-bg
-    {
-        margin-left: 10rem;
-    }
-
-    #twitter-bg
-    {
-        margin-left: 5rem;
-    }
-  }
-
-  @media (max-width:528px)
-  {
-    #instagram-bg
-    {
-        margin-left: 12rem;
-        margin-top: 1rem;
-    }
-
-    #twitter-bg
-    {
-        margin-left: 20rem;
-    }
-
-    #linked-in-bg
-    {
-        margin-bottom: -10rem;
-    }
-  }
-
 
  
   #linked-in-bg:hover {
